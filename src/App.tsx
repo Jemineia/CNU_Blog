@@ -11,7 +11,7 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 
 function App() {
   const queryClient = new QueryClient();
-  return
+  return (
     <QueryClientProvider client={queryClient}>
       <ReactQueryDevtools></ReactQueryDevtools>
       <Router basename={'/CNU_Blog/'}>
